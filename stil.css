@@ -1,0 +1,53 @@
+body {
+	padding:0;
+	margin:0;
+	background-image: url('img/left_tile_02.png');
+	font-family: Tahoma,sans-serif;
+	font-size:13px;
+}
+
+h1 {
+	color: #6A0404;
+}
+
+#sidebar {
+	padding-top:5px;
+	padding-left:5px;
+	width: 229px;
+	height:100%;
+	background-image: url('img/sidebar.png');
+	float:left;
+	color:white;
+}
+
+#sidebar a {
+	color: white;
+	text-decoration:none;
+}
+
+#sidebar a:hover {
+	text-decoration:underline;
+}
+
+iframe {
+	float:left;
+	width:80%;
+	height:100%;
+	padding-left:5px;
+}
+
+table {
+	border-collapse:collapse;
+	border:1px solid grey;
+}
+
+th, td {
+	border:1px solid grey;
+	color:#333333;
+	font-size:12px;
+}
+
+input {
+	border: 2px solid #AAAAAA;
+    border-radius: 4px 4px 4px 4px;
+}
